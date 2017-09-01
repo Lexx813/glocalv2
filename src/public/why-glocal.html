@@ -22,260 +22,270 @@
 
 <body data-spy="scroll" data-target="#navbarScroll">
 
-    <!--Navbar-->
-    <nav id="mainNav" class="navbar p-1 fixed-top navbar-fixed-top navbar-expand-lg  navbar-light bg-faded">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-        <a id="brand" class="navbar-brand" href="index.html">GLocal</a>
+   <!--Navbar-->
+   <nav  class="navbar fixed-top p-1 navbar-fixed-top navbar-expand-lg bg-dark navbar-dark text-white">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+    <a id="brand" class="navbar-brand" href="index.html">GLocal</a>
 
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-        <ul class="  navbar-nav ml-auto">
-            <li id="lang-switch" class="nav-item dropdown ">
-                 <a class="nav-link dropdown-toggle active" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><i id="lang_icon" class="fa fa-language" aria-hidden="true"></i></a> 
-                <div class="dropdown-menu">
-                    <a id="en_click" class="dropdown-item button_lang" value="en" href="#">English</a>
-                    <a id="sp_click" class="dropdown-item button_lang current_lang" value="es" href="#">Spanish</a>
+    <ul class="  navbar-nav ml-auto">
+        <li id="lang-switch" class="nav-item dropdown ">
+             <a class="nav-link dropdown-toggle active" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><i id="lang_icon" class="fa fa-language" aria-hidden="true"></i> Language</a> 
+            <div class="dropdown-menu">
+                <a id="en_click" class="dropdown-item button_lang" value="en" href="#">English</a>
+                <a id="sp_click" class="dropdown-item button_lang current_lang" value="es" href="#">Spanish</a>
+            </div>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link " href="#top">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li id="serv" class="en nav-item dropdown ">
+            <a class="nav-link dropdown-toggle " data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Services</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="listings.html">Digital listing Management </a>
+                <a class="dropdown-item" href="seo.html">Search engine Optimization</a>
+                <a class="dropdown-item" href="social-media.html">Social media marketing</a>
+            </div>
+        </li>
+        <li id="servdd" class="sp nav-item dropdown ">
+            <a class="nav-link dropdown-toggle " data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Servicios</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="listings.html">Digital listing management </a>
+                <a class="dropdown-item" href="seo.html">Search engine Optimization</a>
+                <a class="dropdown-item" href="social-media.html">Social media marketing</a>
+            </div>
+        </li>
+        <li class="en nav-item">
+            <a class="nav-link" href="why-glocal.html">Why GLocal</a>
+        </li>
+        <li class="sp nav-item">
+            <a class="nav-link" href="why-glocal.html">Porque GLocal</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link " href="websites.html">Websites</a>
+        </li>
+        <li class="en nav-item">
+            <a class="nav-link " href="index.php">Contact</a>
+        </li>
+
+        <li class="sp nav-item">
+            <a class="nav-link " href="index.php">Contacto</a>
+        </li>
+    </ul>
+    </div>
+</nav>
+
+
+<div id="whyg" class="jumbotron jumbotron-fluid text-center">
+    
+            <div class="container">
+                <div class=" mx-auto">
+                    <h1 class="en display-3">Why GLocal? We make it easy</h1>
+                    <h1 class="sp display-3">POR QUE GLOCAL? LO HACEMOS FACIL</h1>
+    
+                    <p class="lead en">we have the best Solution for your business needs.</p>
+                    <p class="lead sp text-lowercase">TENEMOS LA MEJOR SOLUCIÓN PARA SUS
+                            NECESIDADES DE NEGOCIO…  
+                  </p>
+                    <p id="start"><a class="en btn btn-primary btn-lg " href="/contactphp/index.php" role="button">Get Started &raquo;</a></p>
+                    <p id="start"><a class="sp btn btn-primary btn-lg " href="/contactphp/index.php" role="button">Vamos a comenzar &raquo;</a></p>
                 </div>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link " href="index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li id="servdd" class="en nav-item dropdown ">
-                <a class="nav-link dropdown-toggle " data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Services</a>
-                <div class="dropdown-menu">
-                    <a class="dropdown-item" href="listings.html">Digital listing Management </a>
-                    <a class="dropdown-item" href="seo.html">Search engine Optimization</a>
-                    <a class="dropdown-item" href="social-media.html">Social media marketing</a>
-                </div>
-            </li>
-            <li id="servdd" class="sp nav-item dropdown ">
-                <a class="nav-link dropdown-toggle " data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Servicios</a>
-                <div class="dropdown-menu">
-                    <a class="dropdown-item" href="listings.html">Digital listing management </a>
-                    <a class="dropdown-item" href="seo.html">Search engine Optimization</a>
-                    <a class="dropdown-item" href="social-media.html">Social media marketing</a>
-                </div>
-            </li>
-            <li class="en nav-item">
-                <a class="nav-link" href="why-glocal.html">Why GLocal</a>
-            </li>
-            <li class="sp nav-item">
-                <a class="nav-link" href="why-glocal.html">Porque GLocal</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link " href="websites.html">Websites</a>
-            </li>
-            <li class="en nav-item">
-                <a class="nav-link " href="/contactphp/index.php">Contact</a>
-            </li>
-
-            <li class="sp nav-item">
-                <a class="nav-link " href="/contactphp/index.php">Contacto</a>
-            </li>
-        </ul>
+            </div>
+    
         </div>
-    </nav>
-
-    <div id="whyg" class="jumbotron jumbotron-fluid text-center">
-
+    
+        <!-- this where the video will go -->
+      <!-- VIDEO PLAY SECTION -->
+      <section id="video-play">
+        <div class="dark-overlay">
+          <div class="row">
+            <div class="col">
+              <div class="container p-5">
+                <a href="#" data-video="https://www.youtube.com/embed/cbE_G0EZ2KY" data-toggle="modal" data-target="#videoModal" class="video">
+               <i id="big-icon" class="fa fa-play"></i>
+              </a>
+                <h1 class="en">See What We Do</h1>
+                <h1 class="sp">vea lo que hacemos</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+        <hr>
         <div class="container">
-            <div class=" mx-auto">
-                <h1 class="en display-3">Why GLocal? We make it easy</h1>
-                <h1 class="sp display-3">Why GLocal? We make it easy</h1>
-
-                <p class="lead">we have the best Solution for your business needs.</p>
+            <h3 class="en">Local Experience. Digital Expertise. One-on-one dedicated service. That's what makes us better.</h3>
+            <h3 class="sp">     EXPERIENCIA GLOCAL -EXPERIENCIA DIGITAL 
+                    UNO-A-UNO SERVICIO DEDICADO ESO ES LO QUE 
+                    NOS HACE MEJORES…  
+               </h3>
+            <p class="whygp en">
+                We genuinely care about our customers and are dedicated to serving them well. We learn their markets, understand their specific
+                goals and objectives, and develop solutions that deliver business value. We must always respond with a sense
+                of urgency and we must strive to develop long-term customer relationships by consistently delivering quality,
+                innovation, and business value that meet or exceed our customers’ expectations – with no surprises.
+            </p>
+            <p class="sp">
+                    Nos preocupamos genuinamente por nuestros clientes y nos dedicamos a servirles bien. Aprendemos sus mercados, entendemos sus metas y objetivos específicos y desarrollamos soluciones que aportan valor comercial. Siempre debemos responder con un sentido de urgencia y debemos esforzarnos por desarrollar relaciones a largo plazo con los clientes, ofreciendo consistentemente calidad, innovación y valor comercial que cumplan o superen las expectativas de nuestros clientes, sin sorpresas.  
+            </p>
+            <p class="en whygp">We manage local listings that broadens your exposure in search engines by putting accurate and consistent information
+                about your business on many directories, including Google and Yelp. At GLocal we will make sure your business
+                information is updated and clear when potential customers searches for you.</p>
+                <p class="sp">
+                        Gestionamos listados locales que amplían su exposición en los motores de búsqueda mediante la introducción de información precisa y coherente sobre su empresa en muchos directorios, como Google y Yelp. En GLocal nos aseguraremos de que la información de su empresa esté actualizada y clara cuando los clientes potenciales busquen por usted.
+                        
+                     
+                </p>
+        </div>
+        <hr>
+        <div id="whyg2" class="jumbotron">
+            <div>
+                <div>
+                    <h3 class="en display-3">A marketing partner you can trust</h3>
+                    <h3 class="sp display-3"> 
+                            UN ESPECIALISTA DE MARKETING EN EL QUE USTED PUEDE CONFIAR 
+                    </h3>
+                </div>
+            </div>
+        </div>
+        <div class="container ">
+            <hr>
+            <h2 id="sec" class="en"> This Service is structured for the small to medium size businesses. With todays market and social media exposure,
+                you need to effectively manage and maintain your listings if your going to stay ahead of your competition. How
+                a potential client searches and finds you on the web is essential to your business success </h2>
+                <h2 class="sp">
+                        Este servicio está estructurado para las medianas y pequeñas empresas. Con el mercado de hoy y la exposición de medios sociales, es necesario gestionar y mantener eficazmente sus anuncios si va a permanecer por delante de su competencia. 
+                        Como un cliente potencial busca y encuentra que la web es esencial para el éxito de su negocio ya que vivimos en un mundo digital…  
+                        
+                </h2>
+            <hr>
+        </div>
+          <!--TESTOMONIALS SLIDER -->
+    
+      <section id="testomonial-section" class="p-4 bg-dark text-white">
+        <div class="container">
+          <h2 class="text-center text-primary text-uppercase">Testomonials</h2>
+          <div class="row">
+            <div class="col">
+              <div class="slider">
+                <div>
+                  <blockquote class="blockquote">
+                    <p class="mb-0">Have been with GLocal almost four months. Have new Facebook page, all online listings are current & updated. Very pleased with service!</p>
+                    <footer class="blockquote-footer">J. Clark From <cite title="Company 1">Chambers & Clark Hearing Aid Service</cite>
+                    </footer>
+                  </blockquote>
+                </div>
+                <div>
+                  <blockquote class="blockquote">
+                    <p class="mb-0">Our Company has seen such a jump in business and are very happy. Our rep Kyle Arrington has been great to work with !!</p>
+                    <footer class="blockquote-footer">Christi KendrickFrom <cite title="Company 2">Ameristar Roofing & Restoration LLC</cite>
+                    </footer>
+                  </blockquote>
+                </div>
+                <div>
+                  <blockquote class="blockquote">
+                    <p class="mb-0">"One of the best decisions
+                        I have made!"</p>
+                    <footer class="blockquote-footer">Carol P. LePole From <cite title="Company 3">Fringes Salon</cite>
+                    </footer>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+        <div class=" jumbotron-fluid">
+            <div class="container">
+                <h6 class="en display-4">See how easily it can be to grow grow your business online.</h6>
+                <h6 class="sp display-4">VEA CON QUÉ FACILIDAD PUEDE HACER CRECER CON GLOCAL SU NEGOCIO EN LÍNEA…</h6>
                 <p id="start"><a class="en btn btn-primary btn-lg " href="/contactphp/index.php" role="button">Get Started &raquo;</a></p>
                 <p id="start"><a class="sp btn btn-primary btn-lg " href="/contactphp/index.php" role="button">Get Started &raquo;</a></p>
+                <p>Empiezes Hoyt</p>
+                <h4>1-954-451-44117</h4>
             </div>
         </div>
-
-    </div>
-
-    <!-- this where the video will go -->
-  <!-- VIDEO PLAY SECTION -->
-  <section id="video-play">
-    <div class="dark-overlay">
-      <div class="row">
-        <div class="col">
-          <div class="container p-5">
-            <a href="#" data-video="https://www.youtube.com/embed/cbE_G0EZ2KY" data-toggle="modal" data-target="#videoModal" class="video">
-           <i id="big-icon" class="fa fa-play"></i>
-          </a>
-            <h1 class="en">See What We Do</h1>
-            <h1 class="sp">See What We Do</h1>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-    <hr>
-    <div class="container">
-        <h3 class="en">Local Experience. Digital Expertise. One-on-one dedicated service. That's what makes us better.</h3>
-        <h3 class="sp">Local Experience. Digital Expertise. One-on-one dedicated service. That's what makes us better.</h3>
-        <p class="whygp en">
-            We genuinely care about our customers and are dedicated to serving them well. We learn their markets, understand their specific
-            goals and objectives, and develop solutions that deliver business value. We must always respond with a sense
-            of urgency and we must strive to develop long-term customer relationships by consistently delivering quality,
-            innovation, and business value that meet or exceed our customers’ expectations – with no surprises.
-        </p>
-        <p class="sp">
-
-        </p>
-        <p class="en whygp">We manage local listings that broadens your exposure in search engines by putting accurate and consistent information
-            about your business on many directories, including Google and Yelp. At GLocal we will make sure your business
-            information is updated and clear when potential customers searches for you.</p>
-            <p class="sp">
-
-            </p>
-    </div>
-    <hr>
-    <div id="whyg2" class="jumbotron">
-        <div>
-            <div>
-                <h3 class="en display-3">A marketing partner you can trust</h3>
-                <h3 class="sp display-3"> 
-
-                </h3>
-            </div>
-        </div>
-    </div>
-    <div class="container ">
-        <hr>
-        <h2 id="sec" class="en"> This Service is structured for the small to medium size businesses. With todays market and social media exposure,
-            you need to effectively manage and maintain your listings if your going to stay ahead of your competition. How
-            a potential client searches and finds you on the web is essential to your business success </h2>
-            <h2 class="sp">
-
-            </h2>
-        <hr>
-    </div>
-      <!--TESTOMONIALS SLIDER -->
-
-  <section id="testomonial-section" class="p-4 bg-dark text-white">
-    <div class="container">
-      <h2 class="text-center text-primary text-uppercase">Testomonials</h2>
-      <div class="row">
-        <div class="col">
-          <div class="slider">
-            <div>
-              <blockquote class="blockquote">
-                <p class="mb-0">Have been with GLocal almost four months. Have new Facebook page, all online listings are current & updated. Very pleased with service!</p>
-                <footer class="blockquote-footer">J. Clark From <cite title="Company 1">Chambers & Clark Hearing Aid Service</cite>
-                </footer>
-              </blockquote>
-            </div>
-            <div>
-              <blockquote class="blockquote">
-                <p class="mb-0">Our Company has seen such a jump in business and are very happy. Our rep Kyle Arrington has been great to work with !!</p>
-                <footer class="blockquote-footer">Christi KendrickFrom <cite title="Company 2">Ameristar Roofing & Restoration LLC</cite>
-                </footer>
-              </blockquote>
-            </div>
-            <div>
-              <blockquote class="blockquote">
-                <p class="mb-0">"One of the best decisions
-                    I have made!"</p>
-                <footer class="blockquote-footer">Carol P. LePole From <cite title="Company 3">Fringes Salon</cite>
-                </footer>
-              </blockquote>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-    <div class=" jumbotron-fluid">
-        <div class="container">
-            <h6 class="en display-4">See how easily it can be to grow grow your business online.</h6>
-            <h6 class="sp display-4">See how easily it can be to grow grow your business online.</h6>
-            <p id="start"><a class="en btn btn-primary btn-lg " href="/contactphp/index.php" role="button">Get Started &raquo;</a></p>
-            <p id="start"><a class="sp btn btn-primary btn-lg " href="/contactphp/index.php" role="button">Get Started &raquo;</a></p>
-            <p>call us today at</p>
-            <h4>1-954-451-44117</h4>
-        </div>
-    </div>
-   
-        <div class="container">
-            <div class="row">
-
-                <div class="col">
-
-                    <ul>
-                        <li>
-                            <h5>Company</h5>
-                        </li>
-                        <li>
-                            <a href="why-glocal.html">Why GLocal</a>
-                        </li>
-                        <li>
-                            <a href="websites.html">Websites</a>
-                        </li>
-                        <li>
-                            <a href="/contactphp/index.php">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col ">
-
-                    <ul class="unstyled">
-                        <li>
-                            <h5>Services</h5>
-                        </li>
-                        <li>
-                            <a href="listings.html">Listings Management</a>
-                        </li>
-                        <li>
-                            <a href="seo.html">Search Optimization</a>
-                        </li>
-                        <li>
-                            <a href="social-media.html">Social Media</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="foot col">
-                    <ul>
-                        <li class="fbt offset-1">
-                            <a href="https://www.facebook.com/G-Local-113387625989773/">      <i id="fa1" class="fa fa-facebook-official fa-3x" aria-hidden="true"></i></a>
-                        </li>
-                        <li class="fbt offset-1">
-                            <a href="https://twitter.com/glocallisting">  <i id="fa2" class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            </div>
-
-        <footer class=" bg-dark p-3 text-white">
+       
             <div class="container">
-                <p class="float-right"><a href="#">Back to top</a></p>
-                <p>&copy; 2017 Company, Inc.</p>
+                <div class="row">
+    
+                    <div class="col">
+    
+                        <ul>
+                            <li>
+                                <h5>Company</h5>
+                            </li>
+                            <li>
+                                <a href="why-glocal.html">Why GLocal</a>
+                            </li>
+                            <li>
+                                <a href="websites.html">Websites</a>
+                            </li>
+                            <li>
+                                <a href="/contactphp/index.php">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col ">
+    
+                        <ul class="unstyled">
+                            <li>
+                                <h5>Services</h5>
+                            </li>
+                            <li>
+                                <a href="listings.html">Listings Management</a>
+                            </li>
+                            <li>
+                                <a href="seo.html">Search Optimization</a>
+                            </li>
+                            <li>
+                                <a href="social-media.html">Social Media</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="foot col">
+                        <ul>
+                            <li class="fbt offset-1">
+                                <a href="https://www.facebook.com/G-Local-113387625989773/">      <i id="fa1" class="fa fa-facebook-official fa-3x" aria-hidden="true"></i></a>
+                            </li>
+                            <li class="fbt offset-1">
+                                <a href="https://twitter.com/glocallisting">  <i id="fa2" class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+    
+            <footer class=" bg-dark p-3 text-white">
+                <div class="container">
+                    <p class="float-right"><a href="#">Back to top</a></p>
+                    <p>&copy; 2017 Company, Inc.</p>
+                </div>
+            </footer>
+    
+    
+     <!--Video MODAL -->
+     <div class="modal fade" id="videoModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-body">
+              <button class="close" data-dismiss="modal"><span>&times;</span></button>
+              <iframe src="" height="350" width="100%" frameborder="0" allowFullscreen></iframe>
             </div>
-        </footer>
-
-
- <!--Video MODAL -->
- <div class="modal fade" id="videoModal">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-body">
-          <button class="close" data-dismiss="modal"><span>&times;</span></button>
-          <iframe src="" height="350" width="100%" frameborder="0" allowFullscreen></iframe>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-
 
 
 
 
   <script type="text/javascript " src="js/lang.js "></script>
-  <script type="text/javascript " src="js/creative.js "></script>
+  <script type="text/javascript " src="js/glocal.js "></script>
   <script src="js/jquery.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script> 

@@ -1,6 +1,3 @@
-* {
-  border-radius: 0 !important; }
-
 #lang_icon {
   color: #2082ee;
   font-size: 20px; }
@@ -98,26 +95,11 @@
   min-height: 500px;
   max-width: 100%; }
 
-.navbar-toggle {
-  /* (80px - button height 34px) / 2 = 23px */
-  margin-top: 23px;
-  padding: 9px 10px !important; }
-
 #fa1 {
   color: #3d53eb; }
 
 #fa2 {
   color: #428bca; }
-
-#brand {
-  font-size: 2.0em;
-  font-family: 'kanit', sans-serif; }
-
-.nav-item {
-  font-family: "kanit", sans-serif; }
-
-#navbarScroll {
-  height: 70px; }
 
 @media (min-width: 768px) {
   .navbar > .container {
@@ -246,10 +228,8 @@
   padding-top: 125px; }
 
 #serv {
-  text-align: center;
-  color: white; }
+  text-align: center; }
 
-/*we need to style the popup with CSS so it is placed as a common popup does*/
 .ytube {
   text-align: center; }
 
@@ -260,8 +240,6 @@
   padding-top: 20px; }
 
 .button_lang {
-  background-color: #40ff40;
-  color: #FFF;
   padding: 8px;
   border-radius: 5px;
   -webkit-transition: background-color .3s ease-in-out;
@@ -270,9 +248,8 @@
   -ms-transition: background-color .3s ease-in-out;
   transition: background-color .3s ease-in-out; }
 
-.button_lang:hover,
-.current_lang {
-  background-color: #0476f4;
+.button_lang:hover {
+  color: blue;
   -webkit-transition: background-color .3s ease-in-out;
   -moz-transition: background-color .3s ease-in-out;
   -o-transition: background-color .3s ease-in-out;
@@ -361,14 +338,6 @@ footer p {
   #video-play a {
     color: red; }
 
-.navbar {
-  box-shadow: 2px 2px 25px #292b2c;
-  opacity: 0.9;
-  background: #fff; }
-  .navbar .nav-item {
-    font-size: 1.0rem;
-    padding-right: 20px; }
-
 .hover img:hover {
   opacity: 1.5 !important; }
 
@@ -376,3 +345,16 @@ footer p {
   opacity: 0.5;
   filter: alpha(opacity=50);
   /* For IE8 and earlier */ }
+
+.navbar {
+  box-shadow: 2px 2px 25px #292b2c; }
+  .navbar .nav-item {
+    font-size: 0.8rem;
+    padding-right: 20px; }
+
+#brand {
+  font-size: 2.0em;
+  font-family: 'kanit', sans-serif; }
+
+.nav-item {
+  font-family: "kanit", sans-serif; }

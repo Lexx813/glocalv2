@@ -32,13 +32,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
             <ul class="  navbar-nav ml-auto">
-                <li class="pt-3">
-                    <a id="en_click" class="nav-item text-dark button_lang" value="en" href="#">English</a>
-                </li>
-                <li class="p-3">
-                    <a id="sp_click" class="nav-item text-dark button_lang current_lang" value="es" href="#">Spanish</a>
-                </li>
-                
+                 <li id="lang-switch" class="nav-item dropdown ">
+                 <a class="nav-link dropdown-toggle active" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><i id="lang_icon" class="fa fa-language" aria-hidden="true"></i></a> 
+                <div class="dropdown-menu">
+                    <a id="en_click" class="dropdown-item button_lang" value="en" href="#">English</a>
+                    <a id="sp_click" class="dropdown-item button_lang current_lang" value="es" href="#">Spanish</a>
+                </div>
+            </li>
                 <li class="nav-item active">
                     <a class="nav-link " href="#top">Home <span class="sr-only">(current)</span></a>
                 </li>

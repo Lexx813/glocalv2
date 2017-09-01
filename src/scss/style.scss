@@ -1,8 +1,6 @@
 @import 'variables';
 
-* {
-    border-radius: 0 !important;
-}
+
 
 
 // language icon
@@ -119,15 +117,11 @@
 
 //End of backgrounds
 
-//NAVBAR
 
 
 
-.navbar-toggle {
-/* (80px - button height 34px) / 2 = 23px */
-margin-top: 23px;
-padding: 9px 10px !important;
-}
+
+
 
 #fa1 {
     color: #3d53eb;
@@ -137,18 +131,8 @@ padding: 9px 10px !important;
     color: #428bca
 }
 
-#brand {
-    font-size: 2.0em;
-    font-family: 'kanit', sans-serif;
-}
 
-.nav-item {
-    font-family: "kanit", sans-serif;
-}
 
-#navbarScroll {
-    height: 70px;
-}
 
 // .navbar-collapse {
 //     padding-left: 20px;
@@ -321,19 +305,8 @@ text-align: center;
 
 #serv {
     text-align: center;
-    color: white;
+   
 }
-/*we need to style the popup with CSS so it is placed as a common popup does*/
-
-// #popup {
-//     display: none;
-//     position: absolute;
-//     margin: 0 auto;
-//     top: 50%;
-//     left: 50%;
-//     transform: translate(-50%, -50%);
-//     z-index: 9999;
-// }
 
 .ytube {
     text-align: center;
@@ -348,8 +321,7 @@ text-align: center;
 }
 
 .button_lang {
-    background-color: #40ff40;
-    color: #FFF;
+ 
     padding: 8px ;
     border-radius: 5px;
     -webkit-transition: background-color .3s ease-in-out;
@@ -360,8 +332,8 @@ text-align: center;
 }
 
 .button_lang:hover,
-.current_lang {
-    background-color: #0476f4;
+{
+  color: blue;
     -webkit-transition: background-color .3s ease-in-out;
     -moz-transition: background-color .3s ease-in-out;
     -o-transition: background-color .3s ease-in-out;
@@ -481,17 +453,6 @@ a{
 }
 }
 
-.navbar {
-box-shadow: 2px 2px 25px $gray-dark;
-opacity: 0.9;
-background: #fff;
-
-.nav-item{
- font-size: 1.0rem;
- padding-right:20px; 
-}
-}
-
 
 .hover img:hover {
 
@@ -504,4 +465,26 @@ opacity: 0.5;
 filter: alpha(opacity=50); /* For IE8 and earlier */
 }
 
+//NAVBAR
 
+
+.navbar {
+    box-shadow: 2px 2px 25px $gray-dark;
+    
+    
+    
+    .nav-item{
+     font-size: 0.8rem;
+     padding-right:20px; 
+    }
+    }
+    
+    #brand {
+        font-size: 2.0em;
+        font-family: 'kanit', sans-serif;
+    }
+    
+    .nav-item {
+        font-family: "kanit", sans-serif;
+    }
+    
