@@ -1,0 +1,378 @@
+* {
+  border-radius: 0 !important; }
+
+#lang_icon {
+  color: #2082ee;
+  font-size: 20px; }
+
+#main {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/backgrounds/bannerimg.png);
+  background-size: cover;
+  background-position: center;
+  min-height: 900px;
+  max-width: 100%; }
+
+#listpic {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/backgrounds/listpic.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 900px;
+  max-width: 100%;
+  color: white;
+  text-align: center; }
+
+#listpic2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(../images/backgrounds/listpic2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 500px;
+  max-width: 100%;
+  color: white;
+  text-align: center; }
+
+#websites {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url(../images/backgrounds/websites.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 900px;
+  max-width: 100%; }
+
+#whyg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/backgrounds/whyg.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 700px;
+  max-width: 100%; }
+
+#whyg2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/backgrounds/whyg2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 500px;
+  max-width: 100%; }
+
+#seoPic1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/backgrounds/seopic.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 700px;
+  max-width: 100%;
+  text-align: center; }
+
+#seopic2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/backgrounds/seopic2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 300px;
+  max-width: 100%; }
+
+#services {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(http://i178.photobucket.com/albums/w242/lexx36o/tim-gouw-79563.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 700px;
+  max-width: 100%; }
+
+#contact {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/backgrounds/contactpic.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 700px;
+  max-width: 100%; }
+
+#social-media {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(../images/backgrounds/fbpic.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 700px;
+  max-width: 100%; }
+
+#social-media2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/backgrounds/fbpic2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 500px;
+  max-width: 100%; }
+
+.navbar-toggle {
+  /* (80px - button height 34px) / 2 = 23px */
+  margin-top: 23px;
+  padding: 9px 10px !important; }
+
+#fa1 {
+  color: #3d53eb; }
+
+#fa2 {
+  color: #428bca; }
+
+#brand {
+  font-size: 2.0em;
+  font-family: 'kanit', sans-serif; }
+
+.nav-item {
+  font-family: "kanit", sans-serif; }
+
+#navbarScroll {
+  height: 70px; }
+
+@media (min-width: 768px) {
+  .navbar > .container {
+    max-width: 100%;
+    padding: 0; } }
+
+.webPic {
+  height: 200px;
+  width: 90%;
+  float: left;
+  margin: 1.66%;
+  box-shadow: 0 1px 1px grey; }
+
+.display-3 {
+  padding-top: 80px;
+  color: white;
+  font-family: 'roboto', sans-serif;
+  text-align: center;
+  text-shadow: 1px 1px #000000; }
+
+.jumbotron-fluid {
+  background-color: #eeeeee;
+  text-align: center;
+  padding-bottom: 30px; }
+
+.jumbotron {
+  text-align: center;
+  color: white; }
+
+#start {
+  padding-top: 50px; }
+
+#serv {
+  padding-top: 80px;
+  color: white;
+  font-family: 'roboto', sans-serif;
+  text-align: center; }
+
+#servtext1 {
+  padding-top: 80px;
+  color: white;
+  font-family: 'roboto', sans-serif;
+  text-align: center; }
+
+#servtext2 {
+  padding-top: 70px;
+  color: white;
+  font-family: 'roboto', sans-serif;
+  text-align: center; }
+
+#servb {
+  padding-top: 50px;
+  text-align: center; }
+
+#sec {
+  text-shadow: 1px 1px #a8a8a8;
+  text-align: center; }
+
+#big-icon {
+  font-size: 80px; }
+
+#webh {
+  font-family: 'roboto', sans-serif;
+  text-align: center;
+  padding-top: 30%;
+  color: white; }
+
+#webp {
+  padding-top: 20px;
+  color: white; }
+
+.jumbotron {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  margin-bottom: 0;
+  background-color: #fff; }
+
+.jumbotron p:last-child {
+  margin-bottom: 0; }
+
+.jumbotron-heading {
+  font-weight: 300; }
+
+.jumbotron .container {
+  max-width: 40rem; }
+
+.card {
+  float: left;
+  width: 33.333%;
+  padding: .75rem;
+  margin-bottom: 2rem;
+  border: 0; }
+
+.card-text {
+  font-size: 85%; }
+
+.card {
+  margin: 0 auto;
+  /* Added */
+  float: none;
+  /* Added */
+  margin-bottom: 10px;
+  /* Added */ }
+
+.card-text {
+  font-size: 85%; }
+
+#card1 {
+  text-align: center;
+  background-color: #7dbf51;
+  color: white; }
+
+#card2 {
+  background-color: #5988ce;
+  color: white; }
+
+#card3 {
+  text-align: center;
+  background-color: #ff8f20;
+  color: white; }
+
+#topbox {
+  padding-top: 200px; }
+
+#client {
+  padding-top: 125px; }
+
+#serv {
+  text-align: center;
+  color: white; }
+
+/*we need to style the popup with CSS so it is placed as a common popup does*/
+.ytube {
+  text-align: center; }
+
+#en {
+  display: none; }
+
+.lang1 {
+  padding-top: 20px; }
+
+.button_lang {
+  background-color: #40ff40;
+  color: #FFF;
+  padding: 8px;
+  border-radius: 5px;
+  -webkit-transition: background-color .3s ease-in-out;
+  -moz-transition: background-color .3s ease-in-out;
+  -o-transition: background-color .3s ease-in-out;
+  -ms-transition: background-color .3s ease-in-out;
+  transition: background-color .3s ease-in-out; }
+
+.button_lang:hover,
+.current_lang {
+  background-color: #0476f4;
+  -webkit-transition: background-color .3s ease-in-out;
+  -moz-transition: background-color .3s ease-in-out;
+  -o-transition: background-color .3s ease-in-out;
+  -ms-transition: background-color .3s ease-in-out;
+  transition: background-color .3s ease-in-out; }
+
+.social {
+  padding-top: 20px; }
+
+ul li {
+  padding-top: 10px;
+  list-style-type: none; }
+
+.cardHover {
+  display: inline-block;
+  border: 0;
+  width: 300px;
+  height: auto;
+  position: relative;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1);
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1);
+  transition: all 200ms ease-in;
+  transform: scale(1); }
+
+.cardHover:hover {
+  box-shadow: 0px 0px25px #000000;
+  z-index: 2;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1.2);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1.2);
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1.2);
+  transition: all 200ms ease-in;
+  transform: scale(1.2); }
+
+#webSite {
+  padding-bottom: 50px; }
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem; }
+
+footer p {
+  margin-bottom: .25rem; }
+
+.cardSet {
+  padding-left: 20px;
+  text-align: center; }
+
+#payment {
+  padding: 50px;
+  color: black; }
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden; }
+
+.cards {
+  text-align: center;
+  padding-left: 30px; }
+
+#portfolio {
+  text-align: center; }
+
+.website {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+#video-play {
+  position: relative;
+  min-height: 200px;
+  background: url("../img/media.jpg");
+  background-position: 0 -300px;
+  background-attachment: fixed;
+  text-align: center;
+  color: #000; }
+  #video-play a {
+    color: red; }
+
+.navbar {
+  box-shadow: 2px 2px 25px #292b2c;
+  opacity: 0.9;
+  background: #fff; }
+  .navbar .nav-item {
+    font-size: 1.0rem;
+    padding-right: 20px; }
+
+.hover img:hover {
+  opacity: 1.5 !important; }
+
+.hover img {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  /* For IE8 and earlier */ }

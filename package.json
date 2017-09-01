@@ -1,0 +1,35 @@
+{
+  "name": "glocal",
+  "version": "2.0.0",
+  "description": "version two for glocal",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "author": "Luis Quinones",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "bootstrap": "4.0.0-beta",
+    "connect-flash": "^0.1.1",
+    "ejs": "^2.5.7",
+    "ejs-lint": "^0.3.0",
+    "ekko-lightbox": "^5.2.0",
+    "express": "^4.15.3",
+    "express-session": "^1.15.3",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.2.1",
+    "mongoose": "^4.10.6",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^4.0.0",
+    "popper.js": "^1.11.1",
+    "scrollreveal": "^3.3.6",
+    "slick-carousel": "^1.7.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-sass": "^3.1.0"
+  }
+}
