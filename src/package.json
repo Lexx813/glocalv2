@@ -4,7 +4,7 @@
   "description": "version two for glocal",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "nodemon app.js"
   },
   "author": "Luis Quinones",
   "license": "MIT",

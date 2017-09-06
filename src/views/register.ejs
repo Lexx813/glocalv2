@@ -1,0 +1,14 @@
+<% include ./partials/header %>
+    <h1 class= "py-5">Sign Up!</h1>
+    <div class="row">
+    <form action="/register" method="POST" class="form-inline align-items-center mx-auto py-5">
+        <div class="col">
+            <input type="text" name="username" class="form-control form-control-lg mr-2" id="username" placeholder="Enter username">
+        </div>
+        <div class="col">
+            <input type="password" name="password" class="form-control form-control-lg mr-2" id="password" placeholder="password">
+            </div>
+            <button type="submit" class="btn btn-outline-dark btn-lg">Submit</button>
+        </form>
+    </div>
+    <% include ./partials/footer %>
